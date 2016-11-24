@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Courgette|Lobster');
+body{
+  margin: 0;
+  padding: 0;
+}
+.cover{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+
+
+  flex-wrap: wrap;
+}
+h2{
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 28px;
+
+}
+h3{
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  transform: translateY(20px);
+  font-size: 24px;
+}
+h2 ,h3{
+  font-family: 'Courgette' , cursive;
+  font-weight: lighter;
+  color: #3DC0D8;
+
+}
+a{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 60%;
+  color: #3dc0d8;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #3dc0d8;
+
+
+}
+a:hover{
+  color: white;
+  background-color: #3dc0d8;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative; }
+  .wrapper img {
+    width: 100%;
+    height: 100vh;
+    position: fixed; }
+  .wrapper .bg-tile {
+    width: 10%;
+    height: 10vh;
+    background-color: transparent;
+    position: absolute;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 5;
+    z-index: -20; }
+  .wrapper .tile {
+    width: 10%;
+    height: 10vh;
+    background-color: white;
+    cursor: crosshair;
+    position: absolute;
+    float: left;
+    transition: all 1s;
+    transition-delay: 10s; }
+    .wrapper .tile:hover {
+      background-color: transparent;
+      transition-delay: 0s; }
+
+@keyframes reveal {
+  0% {
+    background-color: white; }
+  20% {
+    background-color: transparent; }
+  40% {
+    background-color: transparent; }
+  99% {
+    background-color: transparent; }
+  100% {
+    background-color: white; } }
+
+/*# sourceMappingURL=main.css.map */
